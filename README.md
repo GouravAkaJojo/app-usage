@@ -1,6 +1,18 @@
-# App Usage
+<p align="center">
+  <img src="assets/extension-icon.png" width="96" alt="App Usage icon" />
+</p>
 
-See your screen time and which apps you actually use. Fully local, no account, no network.
+<h1 align="center">App Usage</h1>
+
+<p align="center">
+  See your screen time and which apps you actually use.<br />
+  Fully local, no account, no network.
+</p>
+
+<p align="center">
+  <img src="metadata/app-usage-3.png" width="49%" alt="Usage Report — apps ranked by time tracked today" />
+  <img src="metadata/app-usage-4.png" width="49%" alt="App detail — rank, comparison to average, and busiest hour" />
+</p>
 
 ## How it works
 
@@ -11,6 +23,31 @@ Time is attributed to the app that was focused when the sampling window opened, 
 time is subtracted, so walking away from your desk does not inflate the numbers. Idle time
 is recorded separately rather than discarded, so the report can show time at the machine
 alongside time actually working.
+
+## Screenshots
+
+<table>
+  <tr>
+    <td width="50%">
+      <img src="metadata/app-usage-1.png" alt="Root search showing the three App Usage commands" />
+      <p align="center"><sub>Three commands, right in Raycast's root search</sub></p>
+    </td>
+    <td width="50%">
+      <img src="metadata/app-usage-2.png" alt="Daily Usage view with an hour-by-hour active/idle chart" />
+      <p align="center"><sub>Daily Usage — hour-by-hour activity for any of the last 7 days</sub></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <img src="metadata/app-usage-3.png" alt="Usage Report list ranked by time tracked" />
+      <p align="center"><sub>Usage Report — every app, ranked, with total tracked time up front</sub></p>
+    </td>
+    <td width="50%">
+      <img src="metadata/app-usage-4.png" alt="App detail pane with rank, average comparison, and busiest hour" />
+      <p align="center"><sub>Drill into any app — rank, comparison to your average, and busiest hour</sub></p>
+    </td>
+  </tr>
+</table>
 
 ## Privacy
 
