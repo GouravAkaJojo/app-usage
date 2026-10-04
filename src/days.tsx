@@ -22,7 +22,6 @@ import { iconFor, loadIconPaths } from "./icons";
 const RANGE: RangeId = "last7";
 /** Applications listed beside the chart before the rest are left to the drill-down. */
 const METADATA_APP_LIMIT = 8;
-
 interface Day {
   date: string;
   title: string;
@@ -127,13 +126,13 @@ export default function DailyUsage() {
                 showingDetail
                   ? undefined
                   : [
-                      {
-                        text: {
-                          value: tracked ? formatDuration(report.totalSeconds) : "—",
-                          color: tracked ? Color.PrimaryText : Color.SecondaryText,
-                        },
+                    {
+                      text: {
+                        value: tracked ? formatDuration(report.totalSeconds) : "—",
+                        color: tracked ? Color.PrimaryText : Color.SecondaryText,
                       },
-                    ]
+                    },
+                  ]
               }
               detail={
                 <List.Item.Detail
